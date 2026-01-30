@@ -540,6 +540,9 @@ a.navbar-brand img {
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
 }
+.youtube-footer {
+    padding-block: 20px;
+}
 }
 
 @media (max-width: 768px) {
