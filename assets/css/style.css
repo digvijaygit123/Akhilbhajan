@@ -528,10 +528,7 @@ a.navbar-brand img {
         font-size: 22px;
     }
 
-    .photo {
-        width: 120px;
-        height: auto;
-    }
+
       .committee-section {
    padding: 20px 0px;
     text-align: center;
@@ -539,6 +536,14 @@ a.navbar-brand img {
     .second-sec .grid, .third-sec .grid {
         grid-template-columns: repeat(3, 1fr);
     }
+    .second-sec .grid, .third-sec .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
 }
 
 @media (max-width: 768px) {
