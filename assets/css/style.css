@@ -516,6 +516,9 @@ a.navbar-brand img {
     padding: 20px 0px;
     text-align: center;
 }
+    .second-sec .grid, .third-sec .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 /* Responsive */
@@ -527,12 +530,15 @@ a.navbar-brand img {
 
     .photo {
         width: 120px;
-        height: 140px;
+        height: auto;
     }
       .committee-section {
    padding: 20px 0px;
     text-align: center;
 }
+    .second-sec .grid, .third-sec .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 @media (max-width: 768px) {
@@ -553,20 +559,3 @@ a.navbar-brand img {
     }
 }
 
-/* Mobile */
-@media (max-width: 600px) {
-
-    .second-sec .grid,
-    .third-sec .grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-/* Small mobile */
-@media (max-width: 380px) {
-
-    .second-sec .grid,
-    .third-sec .grid {
-        grid-template-columns: 1fr;
-    }
-}
