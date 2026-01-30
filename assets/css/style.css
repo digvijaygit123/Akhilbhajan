@@ -513,13 +513,13 @@ a.navbar-brand img {
         background-size: cover;
     }
     .committee-section {
-    padding-top: 20px;
+    padding: 20px 0px;
     text-align: center;
 }
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
     .section-title {
         font-size: 22px;
@@ -529,6 +529,10 @@ a.navbar-brand img {
         width: 120px;
         height: 140px;
     }
+      .committee-section {
+   padding: 20px 0px;
+    text-align: center;
+}
 }
 
 @media (max-width: 768px) {
