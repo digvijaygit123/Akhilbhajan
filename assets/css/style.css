@@ -516,9 +516,7 @@ a.navbar-brand img {
     padding: 20px 0px;
     text-align: center;
 }
-    .second-sec .grid, .third-sec .grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
+    
 }
 
 /* Responsive */
@@ -554,11 +552,4 @@ a.navbar-brand img {
     }
 }
 
-@media (max-width: 1024px) {
-
-    .second-sec .grid,
-    .third-sec .grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
 
