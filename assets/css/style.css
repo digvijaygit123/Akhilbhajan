@@ -14,7 +14,14 @@ a:focus-visible {
 }
 
 header {
-    background-image: url(../images/header-bgnew.webp);
+    position: relative;
+}
+.bhajan-name-title {
+    padding-block: 30px 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 main {
