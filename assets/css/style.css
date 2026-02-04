@@ -24,6 +24,10 @@ header {
     right: 0;
 }
 
+.header-img img {
+    width: 100%;
+}
+
 main {
     background-image: url(../images/main-bg.webp);
 }
